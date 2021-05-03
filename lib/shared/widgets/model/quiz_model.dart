@@ -3,7 +3,7 @@ import 'question_model.dart';
 enum Level { facil, medio, dificil, perito }
 
 class QuizModel {
-  final String? title;
+  final String title;
   final List<QuestionModel> questions;
   final int questionAnswered;
   final String imagem;
